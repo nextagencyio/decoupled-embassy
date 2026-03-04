@@ -1,0 +1,831 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to the U.S. Embassy Berlin",
+          "path": "/homepage",
+          "heroTitle": "Serving U.S. Citizens Abroad",
+          "heroSubtitle": "Your Gateway to Consular Services",
+          "heroDescription": {
+            "processed": "<p>The U.S. Embassy in Berlin provides a full range of consular services to American citizens in Germany and processes visa applications for German nationals seeking to travel to the United States.</p>",
+            "summary": "The U.S. Embassy in Berlin provides a full range of consular services to American citizens in Germany and processes visa applications for German nationals seeking to travel to the United States."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-visas",
+              "title": "",
+              "number": "50,000+",
+              "label": "Visas Processed Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-citizens",
+              "title": "",
+              "number": "200,000+",
+              "label": "U.S. Citizens Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-services",
+              "title": "",
+              "number": "24/7",
+              "label": "Emergency Assistance"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-countries",
+              "title": "",
+              "number": "30+",
+              "label": "Bilateral Programs"
+            }
+          ],
+          "featuredServicesTitle": "Consular Services",
+          "ctaTitle": "Need Emergency Assistance?",
+          "ctaDescription": {
+            "processed": "<p>If you are a U.S. citizen in need of emergency assistance, contact the embassy immediately. We are available 24 hours a day, 7 days a week for emergencies.</p>",
+            "summary": "If you are a U.S. citizen in need of emergency assistance, contact the embassy immediately. We are available 24 hours a day, 7 days a week for emergencies."
+          },
+          "ctaPrimary": "Emergency Contact",
+          "ctaSecondary": "Schedule Appointment"
+        }
+      }
+    }
+  },
+  "/services/visa-applications": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-visa",
+          "title": "Visa Applications",
+          "path": "/services/visa-applications",
+          "body": {
+            "processed": "<p>The U.S. Embassy in Berlin processes nonimmigrant and immigrant visa applications for German nationals and residents. Our consular officers are dedicated to providing efficient and fair adjudication of all visa applications.</p><h2>Visa Types</h2><ul><li>Tourist/Business (B-1/B-2)</li><li>Student (F-1/M-1)</li><li>Exchange Visitor (J-1)</li><li>Work Visas (H-1B, L-1, O-1)</li><li>Immigrant Visas</li></ul><h2>How to Apply</h2><p>Complete the DS-160 online application, pay the application fee, and schedule your interview appointment through our online system.</p>",
+            "summary": "The U.S. Embassy in Berlin processes nonimmigrant and immigrant visa applications for German nationals and residents. Our consular officers are dedicated to providing efficient and fair adjudication o"
+          },
+          "serviceCategory": [
+            {
+              "id": "visa-services",
+              "name": "visa-services"
+            }
+          ],
+          "processingTime": "3-5 business days",
+          "fee": "$185 USD",
+          "requiredDocuments": {
+            "processed": "<ul><li>Valid passport</li><li>DS-160 confirmation page</li><li>Application fee receipt</li><li>Photo meeting requirements</li><li>Supporting documents based on visa type</li></ul>",
+            "summary": "Valid passportDS-160 confirmation pageApplication fee receiptPhoto meeting requirementsSupporting documents based on visa type"
+          },
+          "onlineUrl": "https://ceac.state.gov/genniv/",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=800&q=80",
+            "alt": "Visa application processing",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/passport-services": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-passport",
+          "title": "Passport Services",
+          "path": "/services/passport-services",
+          "body": {
+            "processed": "<p>U.S. citizens residing in or visiting Germany can apply for new passports, renew existing passports, and report lost or stolen passports at the U.S. Embassy in Berlin.</p><h2>Services Available</h2><ul><li>New passport applications</li><li>Passport renewals</li><li>Lost/stolen passport replacement</li><li>Emergency passports</li><li>Passport name changes</li></ul><h2>Requirements</h2><p>All applicants must appear in person. Bring your current or most recent passport, a completed DS-11 or DS-82 form, and a passport photo.</p>",
+            "summary": "U.S. citizens residing in or visiting Germany can apply for new passports, renew existing passports, and report lost or stolen passports at the U.S. Embassy in Berlin.Services AvailableNew passport ap"
+          },
+          "serviceCategory": [
+            {
+              "id": "passport-services",
+              "name": "passport-services"
+            }
+          ],
+          "processingTime": "10-12 weeks (routine), 4-6 weeks (expedited)",
+          "fee": "$130 USD (adult renewal)",
+          "requiredDocuments": {
+            "processed": "<ul><li>Completed application form</li><li>Current or most recent passport</li><li>Passport-sized photo</li><li>Proof of U.S. citizenship</li><li>Government-issued ID</li></ul>",
+            "summary": "Completed application formCurrent or most recent passportPassport-sized photoProof of U.S. citizenshipGovernment-issued ID"
+          },
+          "onlineUrl": "https://travel.state.gov/content/travel/en/passports.html",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+            "alt": "U.S. passport",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/notarial-services": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-notarial",
+          "title": "Notarial Services",
+          "path": "/services/notarial-services",
+          "body": {
+            "processed": "<p>The embassy provides notarial services to U.S. citizens including notarization of documents, administration of oaths, and certification of copies. These services are available by appointment only.</p><h2>Available Services</h2><ul><li>Notarization of documents</li><li>Administration of oaths and affirmations</li><li>Certification of copies</li><li>Affidavits and declarations</li></ul><h2>Important Notes</h2><p>The embassy can only notarize documents for U.S. citizens. Documents must be in English or accompanied by a certified translation.</p>",
+            "summary": "The embassy provides notarial services to U.S. citizens including notarization of documents, administration of oaths, and certification of copies. These services are available by appointment only.Avai"
+          },
+          "serviceCategory": [
+            {
+              "id": "notarial-services",
+              "name": "notarial-services"
+            }
+          ],
+          "processingTime": "Same day (by appointment)",
+          "fee": "$50 USD per notarial act",
+          "requiredDocuments": {
+            "processed": "<ul><li>Valid U.S. passport or government ID</li><li>Document to be notarized</li><li>All signing parties must be present</li></ul>",
+            "summary": "Valid U.S. passport or government IDDocument to be notarizedAll signing parties must be present"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+            "alt": "Document notarization",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/citizen-services": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-citizen",
+          "title": "U.S. Citizen Services",
+          "path": "/services/citizen-services",
+          "body": {
+            "processed": "<p>The embassy provides a range of services to assist U.S. citizens living in or visiting Germany. From birth registrations to emergency assistance, we are here to help.</p><h2>Services Include</h2><ul><li>Consular Report of Birth Abroad (CRBA)</li><li>Social Security number applications</li><li>Federal benefits assistance</li><li>Voting assistance</li><li>Emergency financial assistance</li><li>Assistance for victims of crime</li></ul><h2>Emergency Services</h2><p>For after-hours emergencies involving U.S. citizens, call the embassy's emergency line. Available 24/7.</p>",
+            "summary": "The embassy provides a range of services to assist U.S. citizens living in or visiting Germany. From birth registrations to emergency assistance, we are here to help.Services IncludeConsular Report of"
+          },
+          "serviceCategory": [
+            {
+              "id": "citizen-services",
+              "name": "citizen-services"
+            }
+          ],
+          "processingTime": "Varies by service",
+          "fee": "Varies by service",
+          "requiredDocuments": {
+            "processed": "<ul><li>Valid U.S. passport</li><li>Proof of U.S. citizenship</li><li>Additional documents vary by service</li></ul>",
+            "summary": "Valid U.S. passportProof of U.S. citizenshipAdditional documents vary by service"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&q=80",
+            "alt": "U.S. citizen services",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/ambassador-thompson": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-ambassador",
+          "title": "Ambassador James R. Thompson",
+          "path": "/officials/ambassador-thompson",
+          "body": {
+            "processed": "<p>Ambassador Thompson was nominated by the President and confirmed by the Senate to serve as U.S. Ambassador to Germany. He brings over 30 years of diplomatic experience, having previously served in senior positions at the State Department and as Ambassador to Austria.</p><p>Ambassador Thompson is a strong advocate for transatlantic cooperation on security, trade, and climate issues. He holds a J.D. from Georgetown University Law Center and a B.A. in International Relations from Princeton University.</p>",
+            "summary": "Ambassador Thompson was nominated by the President and confirmed by the Senate to serve as U.S. Ambassador to Germany. He brings over 30 years of diplomatic experience, having previously served in sen"
+          },
+          "position": "U.S. Ambassador to Germany",
+          "email": "BerlinACS@state.gov",
+          "phone": "+49 (30) 8305-0",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Ambassador James R. Thompson",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/dcm-chen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-dcm",
+          "title": "Sarah Chen",
+          "path": "/officials/dcm-chen",
+          "body": {
+            "processed": "<p>Ms. Chen serves as Deputy Chief of Mission at the U.S. Embassy in Berlin. She oversees the day-to-day operations of the embassy and coordinates between various sections. Prior to this assignment, she served as Political Counselor at the U.S. Embassy in Tokyo and held positions in the Bureau of European and Eurasian Affairs.</p><p>Ms. Chen is a career member of the Senior Foreign Service and has received multiple State Department awards for her contributions to U.S. foreign policy.</p>",
+            "summary": "Ms. Chen serves as Deputy Chief of Mission at the U.S. Embassy in Berlin. She oversees the day-to-day operations of the embassy and coordinates between various sections. Prior to this assignment, she "
+          },
+          "position": "Deputy Chief of Mission",
+          "email": "BerlinACS@state.gov",
+          "phone": "+49 (30) 8305-0",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Sarah Chen, Deputy Chief of Mission",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/consul-general-martinez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-consul",
+          "title": "Consul General Maria Martinez",
+          "path": "/officials/consul-general-martinez",
+          "body": {
+            "processed": "<p>Consul General Martinez leads the consular section of the U.S. Embassy in Berlin, overseeing visa adjudication and American citizen services. She has served in consular positions at embassies across Europe and Latin America, bringing extensive experience in immigration law and consular affairs.</p><p>Under her leadership, the consular section has implemented several modernization initiatives to improve service delivery and reduce wait times for applicants.</p>",
+            "summary": "Consul General Martinez leads the consular section of the U.S. Embassy in Berlin, overseeing visa adjudication and American citizen services. She has served in consular positions at embassies across E"
+          },
+          "position": "Consul General",
+          "email": "BerlinACS@state.gov",
+          "phone": "+49 (30) 8305-1000",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Consul General Maria Martinez",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/travel-advisories/germany": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTravelAdvisory",
+          "id": "advisory-germany",
+          "title": "Germany Travel Advisory",
+          "path": "/travel-advisories/germany",
+          "body": {
+            "processed": "<p>Exercise normal precautions when traveling to Germany. Germany is generally a safe country for travelers. However, visitors should remain aware of their surroundings, particularly in crowded tourist areas and public transportation hubs.</p><h2>Safety Tips</h2><ul><li>Keep personal belongings secure in crowded areas</li><li>Be aware of pickpockets in tourist areas</li><li>Follow local laws and customs</li><li>Register with STEP (Smart Traveler Enrollment Program)</li></ul><h2>Entry Requirements</h2><p>U.S. citizens can enter Germany for up to 90 days without a visa for tourism or business purposes. A valid passport is required.</p>",
+            "summary": "Exercise normal precautions when traveling to Germany. Germany is generally a safe country for travelers. However, visitors should remain aware of their surroundings, particularly in crowded tourist a"
+          },
+          "advisoryLevel": [
+            {
+              "id": "level-1-exercise-normal-precautions",
+              "name": "level-1-exercise-normal-precautions"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1768456800
+          },
+          "country": "Germany",
+          "lastUpdated": {
+            "timestamp": 1772258400
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80",
+            "alt": "Brandenburg Gate, Berlin",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/travel-advisories/france": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTravelAdvisory",
+          "id": "advisory-france",
+          "title": "France Travel Advisory",
+          "path": "/travel-advisories/france",
+          "body": {
+            "processed": "<p>Exercise increased caution in France due to terrorism and civil unrest. Terrorist groups continue to plot attacks in France. Terrorists may attack with little or no warning, targeting tourist locations, transportation hubs, and public gatherings.</p><h2>Precautions</h2><ul><li>Avoid demonstrations and large gatherings</li><li>Monitor local media for updates</li><li>Be aware of your surroundings</li><li>Have a communication plan with family</li></ul>",
+            "summary": "Exercise increased caution in France due to terrorism and civil unrest. Terrorist groups continue to plot attacks in France. Terrorists may attack with little or no warning, targeting tourist location"
+          },
+          "advisoryLevel": [
+            {
+              "id": "level-2-exercise-increased-caution",
+              "name": "level-2-exercise-increased-caution"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1768024800
+          },
+          "country": "France",
+          "lastUpdated": {
+            "timestamp": 1771135200
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+            "alt": "Eiffel Tower, Paris",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/travel-advisories/ukraine": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTravelAdvisory",
+          "id": "advisory-ukraine",
+          "title": "Ukraine Travel Advisory",
+          "path": "/travel-advisories/ukraine",
+          "body": {
+            "processed": "<p>Do not travel to Ukraine due to the armed conflict. The security situation remains volatile across the country. The U.S. Embassy in Kyiv suspended operations and U.S. citizens should not travel to Ukraine.</p><h2>If You Are in Ukraine</h2><ul><li>Depart immediately if it is safe to do so</li><li>Shelter in place if you cannot depart safely</li><li>Contact the nearest U.S. Embassy or Consulate</li><li>Enroll in STEP for emergency updates</li></ul>",
+            "summary": "Do not travel to Ukraine due to the armed conflict. The security situation remains volatile across the country. The U.S. Embassy in Kyiv suspended operations and U.S. citizens should not travel to Ukr"
+          },
+          "advisoryLevel": [
+            {
+              "id": "level-4-do-not-travel",
+              "name": "level-4-do-not-travel"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1645682400
+          },
+          "country": "Ukraine",
+          "lastUpdated": {
+            "timestamp": 1769925600
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+            "alt": "Ukraine",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/travel-advisories/turkey": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTravelAdvisory",
+          "id": "advisory-turkey",
+          "title": "Turkey Travel Advisory",
+          "path": "/travel-advisories/turkey",
+          "body": {
+            "processed": "<p>Reconsider travel to Turkey due to terrorism and arbitrary detentions. Terrorist groups continue to plot attacks in Turkey, and the U.S. government has limited ability to provide emergency services to U.S. citizens in some areas.</p><h2>Areas of Concern</h2><ul><li>Border areas with Syria and Iraq - Do Not Travel</li><li>Southeast Turkey - Exercise Increased Caution</li><li>Istanbul and western Turkey - Exercise Caution</li></ul>",
+            "summary": "Reconsider travel to Turkey due to terrorism and arbitrary detentions. Terrorist groups continue to plot attacks in Turkey, and the U.S. government has limited ability to provide emergency services to"
+          },
+          "advisoryLevel": [
+            {
+              "id": "level-3-reconsider-travel",
+              "name": "level-3-reconsider-travel"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1761973200
+          },
+          "country": "Turkey",
+          "lastUpdated": {
+            "timestamp": 1768888800
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80",
+            "alt": "Istanbul, Turkey",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/trade-agreement-signing": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-trade-agreement",
+          "title": "U.S. and Germany Sign New Trade Cooperation Agreement",
+          "path": "/news/trade-agreement-signing",
+          "body": {
+            "processed": "<p>Ambassador Thompson and German Federal Minister of Economics signed a landmark trade cooperation agreement today at the U.S. Embassy in Berlin. The agreement aims to reduce trade barriers in the technology and renewable energy sectors.</p><p>\"This agreement represents a significant step forward in our economic partnership with Germany,\" Ambassador Thompson said. \"It will create new opportunities for businesses and workers on both sides of the Atlantic.\"</p><p>The agreement includes provisions for joint technology research, harmonized standards for electric vehicles, and a new small business exchange program.</p>",
+            "summary": "Ambassador Thompson and German Federal Minister of Economics signed a landmark trade cooperation agreement today at the U.S. Embassy in Berlin. The agreement aims to reduce trade barriers in the techn"
+          },
+          "category": [
+            {
+              "id": "press-releases",
+              "name": "press-releases"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+            "alt": "Trade agreement signing ceremony",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/holiday-closure-notice": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-holiday-closure",
+          "title": "Embassy Holiday Closure Schedule 2026",
+          "path": "/news/holiday-closure-notice",
+          "body": {
+            "processed": "<p>The U.S. Embassy in Berlin will be closed on the following dates in observance of American and German holidays. Please plan your visits accordingly.</p><h2>Upcoming Closures</h2><ul><li>May 26, 2026 - Memorial Day</li><li>June 5, 2026 - Whit Monday (German holiday)</li><li>July 3, 2026 - Independence Day (observed)</li><li>October 3, 2026 - German Unity Day</li></ul><p>Emergency services for U.S. citizens remain available 24/7 during closures.</p>",
+            "summary": "The U.S. Embassy in Berlin will be closed on the following dates in observance of American and German holidays. Please plan your visits accordingly.Upcoming ClosuresMay 26, 2026 - Memorial DayJune 5, "
+          },
+          "category": [
+            {
+              "id": "alerts",
+              "name": "alerts"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+            "alt": "U.S. Embassy Berlin",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/fulbright-exchange-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-exchange-program",
+          "title": "Fulbright Exchange Program Opens Applications for 2026-2027",
+          "path": "/news/fulbright-exchange-2026",
+          "body": {
+            "processed": "<p>The U.S. Embassy is pleased to announce that applications for the 2026-2027 Fulbright U.S.-Germany Exchange Program are now open. The program provides grants for students, scholars, and professionals to study, teach, or conduct research in Germany.</p><p>Over 300 grants are available for American citizens, covering full tuition, living expenses, and travel costs. Application deadline is October 15, 2026.</p><p>\"The Fulbright Program has been a cornerstone of U.S.-German academic exchange for over 70 years,\" said Cultural Affairs Officer David Park.</p>",
+            "summary": "The U.S. Embassy is pleased to announce that applications for the 2026-2027 Fulbright U.S.-Germany Exchange Program are now open. The program provides grants for students, scholars, and professionals "
+          },
+          "category": [
+            {
+              "id": "events",
+              "name": "events"
+            },
+            {
+              "id": "press-releases",
+              "name": "press-releases"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+            "alt": "Students studying abroad",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About the U.S. Embassy Berlin",
+          "path": "/about",
+          "body": {
+            "processed": "<p>The U.S. Embassy in Berlin is the diplomatic mission of the United States to the Federal Republic of Germany. Located in the heart of Berlin near the Brandenburg Gate, the embassy serves as the primary point of contact between the U.S. government and the German government.</p><h2>Our Mission</h2><p>The embassy advances U.S. interests in Germany through diplomacy, consular services, and public engagement. We work to strengthen the U.S.-German partnership on issues including security, trade, climate, and cultural exchange.</p><h2>History</h2><p>The U.S. Embassy in Berlin has a rich history dating back to the founding of the German Empire in 1871. The current embassy building, designed by Moore Ruble Yudell Architects, was opened in 2008 on its historic site on Pariser Platz.</p><h2>Embassy Sections</h2><ul><li><strong>Consular Section</strong> - Visa processing and American citizen services</li><li><strong>Political Section</strong> - Political analysis and government relations</li><li><strong>Economic Section</strong> - Trade promotion and economic reporting</li><li><strong>Public Affairs</strong> - Media relations, cultural programs, and educational exchanges</li><li><strong>Management Section</strong> - Embassy operations and administration</li></ul>",
+            "summary": "The U.S. Embassy in Berlin is the diplomatic mission of the United States to the Federal Republic of Germany. Located in the heart of Berlin near the Brandenburg Gate, the embassy serves as the primar"
+          }
+        }
+      }
+    }
+  },
+  "/emergency": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-emergency",
+          "title": "Emergency Information for U.S. Citizens",
+          "path": "/emergency",
+          "body": {
+            "processed": "<h2>Emergency Contact</h2><p>If you are a U.S. citizen in Germany experiencing an emergency, contact the U.S. Embassy immediately.</p><ul><li><strong>Emergency Phone:</strong> +49 (30) 8305-0 (24/7)</li><li><strong>After Hours:</strong> +49 (30) 8305-0 (follow prompts for duty officer)</li><li><strong>From the U.S.:</strong> 1-888-407-4747</li></ul><h2>Types of Emergencies We Can Help With</h2><ul><li>Arrests or detentions</li><li>Victims of crime</li><li>Medical emergencies</li><li>Lost or stolen passports</li><li>Destitute citizens</li><li>Natural disasters</li><li>Missing persons</li></ul><h2>Enroll in STEP</h2><p>The Smart Traveler Enrollment Program (STEP) allows you to receive important safety information from the embassy and helps us contact you in an emergency. Enroll at step.state.gov before your trip.</p>",
+            "summary": "Emergency ContactIf you are a U.S. citizen in Germany experiencing an emergency, contact the U.S. Embassy immediately.Emergency Phone: +49 (30) 8305-0 (24/7)After Hours: +49 (30) 8305-0 (follow prompt"
+          }
+        }
+      }
+    }
+  }
+}

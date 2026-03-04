@@ -1,0 +1,203 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-visa",
+          "title": "Visa Applications",
+          "path": "/services/visa-applications",
+          "body": {
+            "processed": "<p>The U.S. Embassy in Berlin processes nonimmigrant and immigrant visa applications for German nationals and residents. Our consular officers are dedicated to providing efficient and fair adjudication of all visa applications.</p><h2>Visa Types</h2><ul><li>Tourist/Business (B-1/B-2)</li><li>Student (F-1/M-1)</li><li>Exchange Visitor (J-1)</li><li>Work Visas (H-1B, L-1, O-1)</li><li>Immigrant Visas</li></ul><h2>How to Apply</h2><p>Complete the DS-160 online application, pay the application fee, and schedule your interview appointment through our online system.</p>",
+            "summary": "The U.S. Embassy in Berlin processes nonimmigrant and immigrant visa applications for German nationals and residents. Our consular officers are dedicated to providing efficient and fair adjudication o"
+          },
+          "serviceCategory": [
+            {
+              "id": "visa-services",
+              "name": "visa-services"
+            }
+          ],
+          "processingTime": "3-5 business days",
+          "fee": "$185 USD",
+          "requiredDocuments": {
+            "processed": "<ul><li>Valid passport</li><li>DS-160 confirmation page</li><li>Application fee receipt</li><li>Photo meeting requirements</li><li>Supporting documents based on visa type</li></ul>",
+            "summary": "Valid passportDS-160 confirmation pageApplication fee receiptPhoto meeting requirementsSupporting documents based on visa type"
+          },
+          "onlineUrl": "https://ceac.state.gov/genniv/",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=800&q=80",
+            "alt": "Visa application processing",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-passport",
+          "title": "Passport Services",
+          "path": "/services/passport-services",
+          "body": {
+            "processed": "<p>U.S. citizens residing in or visiting Germany can apply for new passports, renew existing passports, and report lost or stolen passports at the U.S. Embassy in Berlin.</p><h2>Services Available</h2><ul><li>New passport applications</li><li>Passport renewals</li><li>Lost/stolen passport replacement</li><li>Emergency passports</li><li>Passport name changes</li></ul><h2>Requirements</h2><p>All applicants must appear in person. Bring your current or most recent passport, a completed DS-11 or DS-82 form, and a passport photo.</p>",
+            "summary": "U.S. citizens residing in or visiting Germany can apply for new passports, renew existing passports, and report lost or stolen passports at the U.S. Embassy in Berlin.Services AvailableNew passport ap"
+          },
+          "serviceCategory": [
+            {
+              "id": "passport-services",
+              "name": "passport-services"
+            }
+          ],
+          "processingTime": "10-12 weeks (routine), 4-6 weeks (expedited)",
+          "fee": "$130 USD (adult renewal)",
+          "requiredDocuments": {
+            "processed": "<ul><li>Completed application form</li><li>Current or most recent passport</li><li>Passport-sized photo</li><li>Proof of U.S. citizenship</li><li>Government-issued ID</li></ul>",
+            "summary": "Completed application formCurrent or most recent passportPassport-sized photoProof of U.S. citizenshipGovernment-issued ID"
+          },
+          "onlineUrl": "https://travel.state.gov/content/travel/en/passports.html",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+            "alt": "U.S. passport",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-notarial",
+          "title": "Notarial Services",
+          "path": "/services/notarial-services",
+          "body": {
+            "processed": "<p>The embassy provides notarial services to U.S. citizens including notarization of documents, administration of oaths, and certification of copies. These services are available by appointment only.</p><h2>Available Services</h2><ul><li>Notarization of documents</li><li>Administration of oaths and affirmations</li><li>Certification of copies</li><li>Affidavits and declarations</li></ul><h2>Important Notes</h2><p>The embassy can only notarize documents for U.S. citizens. Documents must be in English or accompanied by a certified translation.</p>",
+            "summary": "The embassy provides notarial services to U.S. citizens including notarization of documents, administration of oaths, and certification of copies. These services are available by appointment only.Avai"
+          },
+          "serviceCategory": [
+            {
+              "id": "notarial-services",
+              "name": "notarial-services"
+            }
+          ],
+          "processingTime": "Same day (by appointment)",
+          "fee": "$50 USD per notarial act",
+          "requiredDocuments": {
+            "processed": "<ul><li>Valid U.S. passport or government ID</li><li>Document to be notarized</li><li>All signing parties must be present</li></ul>",
+            "summary": "Valid U.S. passport or government IDDocument to be notarizedAll signing parties must be present"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+            "alt": "Document notarization",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-citizen",
+          "title": "U.S. Citizen Services",
+          "path": "/services/citizen-services",
+          "body": {
+            "processed": "<p>The embassy provides a range of services to assist U.S. citizens living in or visiting Germany. From birth registrations to emergency assistance, we are here to help.</p><h2>Services Include</h2><ul><li>Consular Report of Birth Abroad (CRBA)</li><li>Social Security number applications</li><li>Federal benefits assistance</li><li>Voting assistance</li><li>Emergency financial assistance</li><li>Assistance for victims of crime</li></ul><h2>Emergency Services</h2><p>For after-hours emergencies involving U.S. citizens, call the embassy's emergency line. Available 24/7.</p>",
+            "summary": "The embassy provides a range of services to assist U.S. citizens living in or visiting Germany. From birth registrations to emergency assistance, we are here to help.Services IncludeConsular Report of"
+          },
+          "serviceCategory": [
+            {
+              "id": "citizen-services",
+              "name": "citizen-services"
+            }
+          ],
+          "processingTime": "Varies by service",
+          "fee": "Varies by service",
+          "requiredDocuments": {
+            "processed": "<ul><li>Valid U.S. passport</li><li>Proof of U.S. citizenship</li><li>Additional documents vary by service</li></ul>",
+            "summary": "Valid U.S. passportProof of U.S. citizenshipAdditional documents vary by service"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&q=80",
+            "alt": "U.S. citizen services",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

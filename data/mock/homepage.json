@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to the U.S. Embassy Berlin",
+          "path": "/homepage",
+          "heroTitle": "Serving U.S. Citizens Abroad",
+          "heroSubtitle": "Your Gateway to Consular Services",
+          "heroDescription": {
+            "processed": "<p>The U.S. Embassy in Berlin provides a full range of consular services to American citizens in Germany and processes visa applications for German nationals seeking to travel to the United States.</p>",
+            "summary": "The U.S. Embassy in Berlin provides a full range of consular services to American citizens in Germany and processes visa applications for German nationals seeking to travel to the United States."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-visas",
+              "title": "",
+              "number": "50,000+",
+              "label": "Visas Processed Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-citizens",
+              "title": "",
+              "number": "200,000+",
+              "label": "U.S. Citizens Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-services",
+              "title": "",
+              "number": "24/7",
+              "label": "Emergency Assistance"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-countries",
+              "title": "",
+              "number": "30+",
+              "label": "Bilateral Programs"
+            }
+          ],
+          "featuredServicesTitle": "Consular Services",
+          "ctaTitle": "Need Emergency Assistance?",
+          "ctaDescription": {
+            "processed": "<p>If you are a U.S. citizen in need of emergency assistance, contact the embassy immediately. We are available 24 hours a day, 7 days a week for emergencies.</p>",
+            "summary": "If you are a U.S. citizen in need of emergency assistance, contact the embassy immediately. We are available 24 hours a day, 7 days a week for emergencies."
+          },
+          "ctaPrimary": "Emergency Contact",
+          "ctaSecondary": "Schedule Appointment"
+        }
+      ]
+    }
+  }
+}

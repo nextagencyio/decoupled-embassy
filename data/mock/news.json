@@ -1,0 +1,142 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-trade-agreement",
+          "title": "U.S. and Germany Sign New Trade Cooperation Agreement",
+          "path": "/news/trade-agreement-signing",
+          "body": {
+            "processed": "<p>Ambassador Thompson and German Federal Minister of Economics signed a landmark trade cooperation agreement today at the U.S. Embassy in Berlin. The agreement aims to reduce trade barriers in the technology and renewable energy sectors.</p><p>\"This agreement represents a significant step forward in our economic partnership with Germany,\" Ambassador Thompson said. \"It will create new opportunities for businesses and workers on both sides of the Atlantic.\"</p><p>The agreement includes provisions for joint technology research, harmonized standards for electric vehicles, and a new small business exchange program.</p>",
+            "summary": "Ambassador Thompson and German Federal Minister of Economics signed a landmark trade cooperation agreement today at the U.S. Embassy in Berlin. The agreement aims to reduce trade barriers in the techn"
+          },
+          "category": [
+            {
+              "id": "press-releases",
+              "name": "press-releases"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+            "alt": "Trade agreement signing ceremony",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-holiday-closure",
+          "title": "Embassy Holiday Closure Schedule 2026",
+          "path": "/news/holiday-closure-notice",
+          "body": {
+            "processed": "<p>The U.S. Embassy in Berlin will be closed on the following dates in observance of American and German holidays. Please plan your visits accordingly.</p><h2>Upcoming Closures</h2><ul><li>May 26, 2026 - Memorial Day</li><li>June 5, 2026 - Whit Monday (German holiday)</li><li>July 3, 2026 - Independence Day (observed)</li><li>October 3, 2026 - German Unity Day</li></ul><p>Emergency services for U.S. citizens remain available 24/7 during closures.</p>",
+            "summary": "The U.S. Embassy in Berlin will be closed on the following dates in observance of American and German holidays. Please plan your visits accordingly.Upcoming ClosuresMay 26, 2026 - Memorial DayJune 5, "
+          },
+          "category": [
+            {
+              "id": "alerts",
+              "name": "alerts"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+            "alt": "U.S. Embassy Berlin",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-exchange-program",
+          "title": "Fulbright Exchange Program Opens Applications for 2026-2027",
+          "path": "/news/fulbright-exchange-2026",
+          "body": {
+            "processed": "<p>The U.S. Embassy is pleased to announce that applications for the 2026-2027 Fulbright U.S.-Germany Exchange Program are now open. The program provides grants for students, scholars, and professionals to study, teach, or conduct research in Germany.</p><p>Over 300 grants are available for American citizens, covering full tuition, living expenses, and travel costs. Application deadline is October 15, 2026.</p><p>\"The Fulbright Program has been a cornerstone of U.S.-German academic exchange for over 70 years,\" said Cultural Affairs Officer David Park.</p>",
+            "summary": "The U.S. Embassy is pleased to announce that applications for the 2026-2027 Fulbright U.S.-Germany Exchange Program are now open. The program provides grants for students, scholars, and professionals "
+          },
+          "category": [
+            {
+              "id": "events",
+              "name": "events"
+            },
+            {
+              "id": "press-releases",
+              "name": "press-releases"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+            "alt": "Students studying abroad",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

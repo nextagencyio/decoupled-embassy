@@ -1,0 +1,205 @@
+{
+  "data": {
+    "nodeTravelAdvisories": {
+      "__typename": "NodeTravelAdvisoryConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTravelAdvisory",
+          "id": "advisory-germany",
+          "title": "Germany Travel Advisory",
+          "path": "/travel-advisories/germany",
+          "body": {
+            "processed": "<p>Exercise normal precautions when traveling to Germany. Germany is generally a safe country for travelers. However, visitors should remain aware of their surroundings, particularly in crowded tourist areas and public transportation hubs.</p><h2>Safety Tips</h2><ul><li>Keep personal belongings secure in crowded areas</li><li>Be aware of pickpockets in tourist areas</li><li>Follow local laws and customs</li><li>Register with STEP (Smart Traveler Enrollment Program)</li></ul><h2>Entry Requirements</h2><p>U.S. citizens can enter Germany for up to 90 days without a visa for tourism or business purposes. A valid passport is required.</p>",
+            "summary": "Exercise normal precautions when traveling to Germany. Germany is generally a safe country for travelers. However, visitors should remain aware of their surroundings, particularly in crowded tourist a"
+          },
+          "advisoryLevel": [
+            {
+              "id": "level-1-exercise-normal-precautions",
+              "name": "level-1-exercise-normal-precautions"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1768456800
+          },
+          "country": "Germany",
+          "lastUpdated": {
+            "timestamp": 1772258400
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80",
+            "alt": "Brandenburg Gate, Berlin",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTravelAdvisory",
+          "id": "advisory-france",
+          "title": "France Travel Advisory",
+          "path": "/travel-advisories/france",
+          "body": {
+            "processed": "<p>Exercise increased caution in France due to terrorism and civil unrest. Terrorist groups continue to plot attacks in France. Terrorists may attack with little or no warning, targeting tourist locations, transportation hubs, and public gatherings.</p><h2>Precautions</h2><ul><li>Avoid demonstrations and large gatherings</li><li>Monitor local media for updates</li><li>Be aware of your surroundings</li><li>Have a communication plan with family</li></ul>",
+            "summary": "Exercise increased caution in France due to terrorism and civil unrest. Terrorist groups continue to plot attacks in France. Terrorists may attack with little or no warning, targeting tourist location"
+          },
+          "advisoryLevel": [
+            {
+              "id": "level-2-exercise-increased-caution",
+              "name": "level-2-exercise-increased-caution"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1768024800
+          },
+          "country": "France",
+          "lastUpdated": {
+            "timestamp": 1771135200
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+            "alt": "Eiffel Tower, Paris",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTravelAdvisory",
+          "id": "advisory-ukraine",
+          "title": "Ukraine Travel Advisory",
+          "path": "/travel-advisories/ukraine",
+          "body": {
+            "processed": "<p>Do not travel to Ukraine due to the armed conflict. The security situation remains volatile across the country. The U.S. Embassy in Kyiv suspended operations and U.S. citizens should not travel to Ukraine.</p><h2>If You Are in Ukraine</h2><ul><li>Depart immediately if it is safe to do so</li><li>Shelter in place if you cannot depart safely</li><li>Contact the nearest U.S. Embassy or Consulate</li><li>Enroll in STEP for emergency updates</li></ul>",
+            "summary": "Do not travel to Ukraine due to the armed conflict. The security situation remains volatile across the country. The U.S. Embassy in Kyiv suspended operations and U.S. citizens should not travel to Ukr"
+          },
+          "advisoryLevel": [
+            {
+              "id": "level-4-do-not-travel",
+              "name": "level-4-do-not-travel"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1645682400
+          },
+          "country": "Ukraine",
+          "lastUpdated": {
+            "timestamp": 1769925600
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+            "alt": "Ukraine",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTravelAdvisory",
+          "id": "advisory-turkey",
+          "title": "Turkey Travel Advisory",
+          "path": "/travel-advisories/turkey",
+          "body": {
+            "processed": "<p>Reconsider travel to Turkey due to terrorism and arbitrary detentions. Terrorist groups continue to plot attacks in Turkey, and the U.S. government has limited ability to provide emergency services to U.S. citizens in some areas.</p><h2>Areas of Concern</h2><ul><li>Border areas with Syria and Iraq - Do Not Travel</li><li>Southeast Turkey - Exercise Increased Caution</li><li>Istanbul and western Turkey - Exercise Caution</li></ul>",
+            "summary": "Reconsider travel to Turkey due to terrorism and arbitrary detentions. Terrorist groups continue to plot attacks in Turkey, and the U.S. government has limited ability to provide emergency services to"
+          },
+          "advisoryLevel": [
+            {
+              "id": "level-3-reconsider-travel",
+              "name": "level-3-reconsider-travel"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1761973200
+          },
+          "country": "Turkey",
+          "lastUpdated": {
+            "timestamp": 1768888800
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80",
+            "alt": "Istanbul, Turkey",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

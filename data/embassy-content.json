@@ -1,0 +1,552 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Embassy homepage with hero, featured services, news, and travel advisories",
+      "fields": [
+        {
+          "id": "hero_title",
+          "label": "Hero Title",
+          "type": "string",
+          "description": "Main headline (e.g., 'Serving U.S. Citizens Abroad')"
+        },
+        {
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "type": "string",
+          "description": "Secondary text below the title"
+        },
+        {
+          "id": "hero_description",
+          "label": "Hero Description",
+          "type": "text",
+          "description": "Longer description for the hero section"
+        },
+        {
+          "id": "stats_items",
+          "label": "Statistics",
+          "type": "paragraph(stat_item)[]",
+          "description": "Key embassy statistics (visas processed, citizens served, etc.)"
+        },
+        {
+          "id": "featured_services_title",
+          "label": "Featured Services Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_title",
+          "label": "CTA Section Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_description",
+          "label": "CTA Description",
+          "type": "text"
+        },
+        {
+          "id": "cta_primary",
+          "label": "Primary CTA Text",
+          "type": "string"
+        },
+        {
+          "id": "cta_secondary",
+          "label": "Secondary CTA Text",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "service",
+      "label": "Embassy Service",
+      "description": "Consular services offered by the embassy",
+      "body": true,
+      "fields": [
+        {
+          "id": "service_category",
+          "label": "Service Category",
+          "type": "term(service_categories)[]",
+          "description": "Category of service (Visa, Passport, Notarial, etc.)"
+        },
+        {
+          "id": "processing_time",
+          "label": "Processing Time",
+          "type": "string",
+          "description": "Expected processing time (e.g., '5-7 business days')"
+        },
+        {
+          "id": "fee",
+          "label": "Fee",
+          "type": "string",
+          "description": "Service fee amount"
+        },
+        {
+          "id": "required_documents",
+          "label": "Required Documents",
+          "type": "text",
+          "description": "List of required documents for this service"
+        },
+        {
+          "id": "online_url",
+          "label": "Online Application URL",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Service Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "official",
+      "label": "Embassy Official",
+      "description": "Ambassadors, consuls, and embassy staff",
+      "body": true,
+      "fields": [
+        {
+          "id": "position",
+          "label": "Position/Title",
+          "type": "string",
+          "description": "Ambassador, Consul General, etc."
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "string"
+        },
+        {
+          "id": "phone",
+          "label": "Phone",
+          "type": "string"
+        },
+        {
+          "id": "photo",
+          "label": "Photo",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "travel_advisory",
+      "label": "Travel Advisory",
+      "description": "Travel advisories and safety notices for countries and regions",
+      "body": true,
+      "fields": [
+        {
+          "id": "advisory_level",
+          "label": "Advisory Level",
+          "type": "term(advisory_levels)[]",
+          "description": "Level 1-4 advisory classification"
+        },
+        {
+          "id": "effective_date",
+          "label": "Effective Date",
+          "type": "datetime"
+        },
+        {
+          "id": "country",
+          "label": "Country",
+          "type": "string"
+        },
+        {
+          "id": "last_updated",
+          "label": "Last Updated",
+          "type": "datetime"
+        },
+        {
+          "id": "image",
+          "label": "Advisory Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "news",
+      "label": "News Article",
+      "description": "Embassy news, press releases, and announcements",
+      "body": true,
+      "fields": [
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image"
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "type": "term(news_categories)[]"
+        },
+        {
+          "id": "featured",
+          "label": "Featured",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, contact, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        {
+          "id": "number",
+          "label": "Number",
+          "type": "string!",
+          "description": "The statistic value (e.g., '50,000+', '24/7')"
+        },
+        {
+          "id": "label",
+          "label": "Label",
+          "type": "string!",
+          "description": "What the number represents"
+        }
+      ]
+    }
+  ],
+  "taxonomies": [
+    {
+      "vocabulary": "service_categories",
+      "label": "Service Categories",
+      "terms": [
+        { "name": "Visa Services" },
+        { "name": "Passport Services" },
+        { "name": "Notarial Services" },
+        { "name": "Citizen Services" }
+      ]
+    },
+    {
+      "vocabulary": "advisory_levels",
+      "label": "Advisory Levels",
+      "terms": [
+        { "name": "Level 1 - Exercise Normal Precautions" },
+        { "name": "Level 2 - Exercise Increased Caution" },
+        { "name": "Level 3 - Reconsider Travel" },
+        { "name": "Level 4 - Do Not Travel" }
+      ]
+    },
+    {
+      "vocabulary": "news_categories",
+      "label": "News Categories",
+      "terms": [
+        { "name": "Press Releases" },
+        { "name": "Alerts" },
+        { "name": "Events" },
+        { "name": "Policy Updates" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-visas",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "50,000+",
+        "label": "Visas Processed Annually"
+      }
+    },
+    {
+      "id": "stat-citizens",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "200,000+",
+        "label": "U.S. Citizens Served"
+      }
+    },
+    {
+      "id": "stat-services",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "24/7",
+        "label": "Emergency Assistance"
+      }
+    },
+    {
+      "id": "stat-countries",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "30+",
+        "label": "Bilateral Programs"
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Welcome to the U.S. Embassy Berlin",
+        "hero_title": "Serving U.S. Citizens Abroad",
+        "hero_subtitle": "Your Gateway to Consular Services",
+        "hero_description": "<p>The U.S. Embassy in Berlin provides a full range of consular services to American citizens in Germany and processes visa applications for German nationals seeking to travel to the United States.</p>",
+        "stats_items": [
+          "@stat-visas",
+          "@stat-citizens",
+          "@stat-services",
+          "@stat-countries"
+        ],
+        "featured_services_title": "Consular Services",
+        "cta_title": "Need Emergency Assistance?",
+        "cta_description": "<p>If you are a U.S. citizen in need of emergency assistance, contact the embassy immediately. We are available 24 hours a day, 7 days a week for emergencies.</p>",
+        "cta_primary": "Emergency Contact",
+        "cta_secondary": "Schedule Appointment"
+      }
+    },
+    {
+      "id": "service-visa",
+      "type": "node.service",
+      "path": "/services/visa-applications",
+      "values": {
+        "title": "Visa Applications",
+        "body": "<p>The U.S. Embassy in Berlin processes nonimmigrant and immigrant visa applications for German nationals and residents. Our consular officers are dedicated to providing efficient and fair adjudication of all visa applications.</p><h2>Visa Types</h2><ul><li>Tourist/Business (B-1/B-2)</li><li>Student (F-1/M-1)</li><li>Exchange Visitor (J-1)</li><li>Work Visas (H-1B, L-1, O-1)</li><li>Immigrant Visas</li></ul><h2>How to Apply</h2><p>Complete the DS-160 online application, pay the application fee, and schedule your interview appointment through our online system.</p>",
+        "service_category": ["visa-services"],
+        "processing_time": "3-5 business days",
+        "fee": "$185 USD",
+        "required_documents": "<ul><li>Valid passport</li><li>DS-160 confirmation page</li><li>Application fee receipt</li><li>Photo meeting requirements</li><li>Supporting documents based on visa type</li></ul>",
+        "online_url": "https://ceac.state.gov/genniv/",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=800&q=80",
+          "alt": "Visa application processing"
+        }
+      }
+    },
+    {
+      "id": "service-passport",
+      "type": "node.service",
+      "path": "/services/passport-services",
+      "values": {
+        "title": "Passport Services",
+        "body": "<p>U.S. citizens residing in or visiting Germany can apply for new passports, renew existing passports, and report lost or stolen passports at the U.S. Embassy in Berlin.</p><h2>Services Available</h2><ul><li>New passport applications</li><li>Passport renewals</li><li>Lost/stolen passport replacement</li><li>Emergency passports</li><li>Passport name changes</li></ul><h2>Requirements</h2><p>All applicants must appear in person. Bring your current or most recent passport, a completed DS-11 or DS-82 form, and a passport photo.</p>",
+        "service_category": ["passport-services"],
+        "processing_time": "10-12 weeks (routine), 4-6 weeks (expedited)",
+        "fee": "$130 USD (adult renewal)",
+        "required_documents": "<ul><li>Completed application form</li><li>Current or most recent passport</li><li>Passport-sized photo</li><li>Proof of U.S. citizenship</li><li>Government-issued ID</li></ul>",
+        "online_url": "https://travel.state.gov/content/travel/en/passports.html",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+          "alt": "U.S. passport"
+        }
+      }
+    },
+    {
+      "id": "service-notarial",
+      "type": "node.service",
+      "path": "/services/notarial-services",
+      "values": {
+        "title": "Notarial Services",
+        "body": "<p>The embassy provides notarial services to U.S. citizens including notarization of documents, administration of oaths, and certification of copies. These services are available by appointment only.</p><h2>Available Services</h2><ul><li>Notarization of documents</li><li>Administration of oaths and affirmations</li><li>Certification of copies</li><li>Affidavits and declarations</li></ul><h2>Important Notes</h2><p>The embassy can only notarize documents for U.S. citizens. Documents must be in English or accompanied by a certified translation.</p>",
+        "service_category": ["notarial-services"],
+        "processing_time": "Same day (by appointment)",
+        "fee": "$50 USD per notarial act",
+        "required_documents": "<ul><li>Valid U.S. passport or government ID</li><li>Document to be notarized</li><li>All signing parties must be present</li></ul>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+          "alt": "Document notarization"
+        }
+      }
+    },
+    {
+      "id": "service-citizen",
+      "type": "node.service",
+      "path": "/services/citizen-services",
+      "values": {
+        "title": "U.S. Citizen Services",
+        "body": "<p>The embassy provides a range of services to assist U.S. citizens living in or visiting Germany. From birth registrations to emergency assistance, we are here to help.</p><h2>Services Include</h2><ul><li>Consular Report of Birth Abroad (CRBA)</li><li>Social Security number applications</li><li>Federal benefits assistance</li><li>Voting assistance</li><li>Emergency financial assistance</li><li>Assistance for victims of crime</li></ul><h2>Emergency Services</h2><p>For after-hours emergencies involving U.S. citizens, call the embassy's emergency line. Available 24/7.</p>",
+        "service_category": ["citizen-services"],
+        "processing_time": "Varies by service",
+        "fee": "Varies by service",
+        "required_documents": "<ul><li>Valid U.S. passport</li><li>Proof of U.S. citizenship</li><li>Additional documents vary by service</li></ul>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&q=80",
+          "alt": "U.S. citizen services"
+        }
+      }
+    },
+    {
+      "id": "official-ambassador",
+      "type": "node.official",
+      "path": "/officials/ambassador-thompson",
+      "values": {
+        "title": "Ambassador James R. Thompson",
+        "body": "<p>Ambassador Thompson was nominated by the President and confirmed by the Senate to serve as U.S. Ambassador to Germany. He brings over 30 years of diplomatic experience, having previously served in senior positions at the State Department and as Ambassador to Austria.</p><p>Ambassador Thompson is a strong advocate for transatlantic cooperation on security, trade, and climate issues. He holds a J.D. from Georgetown University Law Center and a B.A. in International Relations from Princeton University.</p>",
+        "position": "U.S. Ambassador to Germany",
+        "email": "BerlinACS@state.gov",
+        "phone": "+49 (30) 8305-0",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+          "alt": "Ambassador James R. Thompson"
+        }
+      }
+    },
+    {
+      "id": "official-dcm",
+      "type": "node.official",
+      "path": "/officials/dcm-chen",
+      "values": {
+        "title": "Sarah Chen",
+        "body": "<p>Ms. Chen serves as Deputy Chief of Mission at the U.S. Embassy in Berlin. She oversees the day-to-day operations of the embassy and coordinates between various sections. Prior to this assignment, she served as Political Counselor at the U.S. Embassy in Tokyo and held positions in the Bureau of European and Eurasian Affairs.</p><p>Ms. Chen is a career member of the Senior Foreign Service and has received multiple State Department awards for her contributions to U.S. foreign policy.</p>",
+        "position": "Deputy Chief of Mission",
+        "email": "BerlinACS@state.gov",
+        "phone": "+49 (30) 8305-0",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+          "alt": "Sarah Chen, Deputy Chief of Mission"
+        }
+      }
+    },
+    {
+      "id": "official-consul",
+      "type": "node.official",
+      "path": "/officials/consul-general-martinez",
+      "values": {
+        "title": "Consul General Maria Martinez",
+        "body": "<p>Consul General Martinez leads the consular section of the U.S. Embassy in Berlin, overseeing visa adjudication and American citizen services. She has served in consular positions at embassies across Europe and Latin America, bringing extensive experience in immigration law and consular affairs.</p><p>Under her leadership, the consular section has implemented several modernization initiatives to improve service delivery and reduce wait times for applicants.</p>",
+        "position": "Consul General",
+        "email": "BerlinACS@state.gov",
+        "phone": "+49 (30) 8305-1000",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+          "alt": "Consul General Maria Martinez"
+        }
+      }
+    },
+    {
+      "id": "advisory-germany",
+      "type": "node.travel_advisory",
+      "path": "/travel-advisories/germany",
+      "values": {
+        "title": "Germany Travel Advisory",
+        "body": "<p>Exercise normal precautions when traveling to Germany. Germany is generally a safe country for travelers. However, visitors should remain aware of their surroundings, particularly in crowded tourist areas and public transportation hubs.</p><h2>Safety Tips</h2><ul><li>Keep personal belongings secure in crowded areas</li><li>Be aware of pickpockets in tourist areas</li><li>Follow local laws and customs</li><li>Register with STEP (Smart Traveler Enrollment Program)</li></ul><h2>Entry Requirements</h2><p>U.S. citizens can enter Germany for up to 90 days without a visa for tourism or business purposes. A valid passport is required.</p>",
+        "advisory_level": ["level-1-exercise-normal-precautions"],
+        "effective_date": "2026-01-15T00:00:00",
+        "country": "Germany",
+        "last_updated": "2026-02-28T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80",
+          "alt": "Brandenburg Gate, Berlin"
+        }
+      }
+    },
+    {
+      "id": "advisory-france",
+      "type": "node.travel_advisory",
+      "path": "/travel-advisories/france",
+      "values": {
+        "title": "France Travel Advisory",
+        "body": "<p>Exercise increased caution in France due to terrorism and civil unrest. Terrorist groups continue to plot attacks in France. Terrorists may attack with little or no warning, targeting tourist locations, transportation hubs, and public gatherings.</p><h2>Precautions</h2><ul><li>Avoid demonstrations and large gatherings</li><li>Monitor local media for updates</li><li>Be aware of your surroundings</li><li>Have a communication plan with family</li></ul>",
+        "advisory_level": ["level-2-exercise-increased-caution"],
+        "effective_date": "2026-01-10T00:00:00",
+        "country": "France",
+        "last_updated": "2026-02-15T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+          "alt": "Eiffel Tower, Paris"
+        }
+      }
+    },
+    {
+      "id": "advisory-ukraine",
+      "type": "node.travel_advisory",
+      "path": "/travel-advisories/ukraine",
+      "values": {
+        "title": "Ukraine Travel Advisory",
+        "body": "<p>Do not travel to Ukraine due to the armed conflict. The security situation remains volatile across the country. The U.S. Embassy in Kyiv suspended operations and U.S. citizens should not travel to Ukraine.</p><h2>If You Are in Ukraine</h2><ul><li>Depart immediately if it is safe to do so</li><li>Shelter in place if you cannot depart safely</li><li>Contact the nearest U.S. Embassy or Consulate</li><li>Enroll in STEP for emergency updates</li></ul>",
+        "advisory_level": ["level-4-do-not-travel"],
+        "effective_date": "2022-02-24T00:00:00",
+        "country": "Ukraine",
+        "last_updated": "2026-02-01T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+          "alt": "Ukraine"
+        }
+      }
+    },
+    {
+      "id": "advisory-turkey",
+      "type": "node.travel_advisory",
+      "path": "/travel-advisories/turkey",
+      "values": {
+        "title": "Turkey Travel Advisory",
+        "body": "<p>Reconsider travel to Turkey due to terrorism and arbitrary detentions. Terrorist groups continue to plot attacks in Turkey, and the U.S. government has limited ability to provide emergency services to U.S. citizens in some areas.</p><h2>Areas of Concern</h2><ul><li>Border areas with Syria and Iraq - Do Not Travel</li><li>Southeast Turkey - Exercise Increased Caution</li><li>Istanbul and western Turkey - Exercise Caution</li></ul>",
+        "advisory_level": ["level-3-reconsider-travel"],
+        "effective_date": "2025-11-01T00:00:00",
+        "country": "Turkey",
+        "last_updated": "2026-01-20T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80",
+          "alt": "Istanbul, Turkey"
+        }
+      }
+    },
+    {
+      "id": "news-trade-agreement",
+      "type": "node.news",
+      "path": "/news/trade-agreement-signing",
+      "values": {
+        "title": "U.S. and Germany Sign New Trade Cooperation Agreement",
+        "body": "<p>Ambassador Thompson and German Federal Minister of Economics signed a landmark trade cooperation agreement today at the U.S. Embassy in Berlin. The agreement aims to reduce trade barriers in the technology and renewable energy sectors.</p><p>\"This agreement represents a significant step forward in our economic partnership with Germany,\" Ambassador Thompson said. \"It will create new opportunities for businesses and workers on both sides of the Atlantic.\"</p><p>The agreement includes provisions for joint technology research, harmonized standards for electric vehicles, and a new small business exchange program.</p>",
+        "category": ["press-releases"],
+        "featured": true,
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+          "alt": "Trade agreement signing ceremony"
+        }
+      }
+    },
+    {
+      "id": "news-holiday-closure",
+      "type": "node.news",
+      "path": "/news/holiday-closure-notice",
+      "values": {
+        "title": "Embassy Holiday Closure Schedule 2026",
+        "body": "<p>The U.S. Embassy in Berlin will be closed on the following dates in observance of American and German holidays. Please plan your visits accordingly.</p><h2>Upcoming Closures</h2><ul><li>May 26, 2026 - Memorial Day</li><li>June 5, 2026 - Whit Monday (German holiday)</li><li>July 3, 2026 - Independence Day (observed)</li><li>October 3, 2026 - German Unity Day</li></ul><p>Emergency services for U.S. citizens remain available 24/7 during closures.</p>",
+        "category": ["alerts"],
+        "featured": false,
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "alt": "U.S. Embassy Berlin"
+        }
+      }
+    },
+    {
+      "id": "news-exchange-program",
+      "type": "node.news",
+      "path": "/news/fulbright-exchange-2026",
+      "values": {
+        "title": "Fulbright Exchange Program Opens Applications for 2026-2027",
+        "body": "<p>The U.S. Embassy is pleased to announce that applications for the 2026-2027 Fulbright U.S.-Germany Exchange Program are now open. The program provides grants for students, scholars, and professionals to study, teach, or conduct research in Germany.</p><p>Over 300 grants are available for American citizens, covering full tuition, living expenses, and travel costs. Application deadline is October 15, 2026.</p><p>\"The Fulbright Program has been a cornerstone of U.S.-German academic exchange for over 70 years,\" said Cultural Affairs Officer David Park.</p>",
+        "category": ["events", "press-releases"],
+        "featured": true,
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+          "alt": "Students studying abroad"
+        }
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About the U.S. Embassy Berlin",
+        "body": "<p>The U.S. Embassy in Berlin is the diplomatic mission of the United States to the Federal Republic of Germany. Located in the heart of Berlin near the Brandenburg Gate, the embassy serves as the primary point of contact between the U.S. government and the German government.</p><h2>Our Mission</h2><p>The embassy advances U.S. interests in Germany through diplomacy, consular services, and public engagement. We work to strengthen the U.S.-German partnership on issues including security, trade, climate, and cultural exchange.</p><h2>History</h2><p>The U.S. Embassy in Berlin has a rich history dating back to the founding of the German Empire in 1871. The current embassy building, designed by Moore Ruble Yudell Architects, was opened in 2008 on its historic site on Pariser Platz.</p><h2>Embassy Sections</h2><ul><li><strong>Consular Section</strong> - Visa processing and American citizen services</li><li><strong>Political Section</strong> - Political analysis and government relations</li><li><strong>Economic Section</strong> - Trade promotion and economic reporting</li><li><strong>Public Affairs</strong> - Media relations, cultural programs, and educational exchanges</li><li><strong>Management Section</strong> - Embassy operations and administration</li></ul>"
+      }
+    },
+    {
+      "id": "page-emergency",
+      "type": "node.page",
+      "path": "/emergency",
+      "values": {
+        "title": "Emergency Information for U.S. Citizens",
+        "body": "<h2>Emergency Contact</h2><p>If you are a U.S. citizen in Germany experiencing an emergency, contact the U.S. Embassy immediately.</p><ul><li><strong>Emergency Phone:</strong> +49 (30) 8305-0 (24/7)</li><li><strong>After Hours:</strong> +49 (30) 8305-0 (follow prompts for duty officer)</li><li><strong>From the U.S.:</strong> 1-888-407-4747</li></ul><h2>Types of Emergencies We Can Help With</h2><ul><li>Arrests or detentions</li><li>Victims of crime</li><li>Medical emergencies</li><li>Lost or stolen passports</li><li>Destitute citizens</li><li>Natural disasters</li><li>Missing persons</li></ul><h2>Enroll in STEP</h2><p>The Smart Traveler Enrollment Program (STEP) allows you to receive important safety information from the embassy and helps us contact you in an emergency. Enroll at step.state.gov before your trip.</p>"
+      }
+    }
+  ]
+}
