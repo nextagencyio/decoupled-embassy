@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-visas",
               "title": "",
-              "number": "50,000+",
+              "number": "50,000+", "value": "50,000+",
               "label": "Visas Processed Annually"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-citizens",
               "title": "",
-              "number": "200,000+",
+              "number": "200,000+", "value": "200,000+",
               "label": "U.S. Citizens Served"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-services",
               "title": "",
-              "number": "24/7",
+              "number": "24/7", "value": "24/7",
               "label": "Emergency Assistance"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-countries",
               "title": "",
-              "number": "30+",
+              "number": "30+", "value": "30+",
               "label": "Bilateral Programs"
             }
           ],
