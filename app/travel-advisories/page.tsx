@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import TravelAdvisoryCard from '../components/TravelAdvisoryCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Travel Advisories | Embassy',
