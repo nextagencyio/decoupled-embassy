@@ -1,8 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useQuery } from '@apollo/client'
-import { GET_FEATURED_SERVICES } from '@/lib/queries'
+import { useQuery, gql } from '@apollo/client'
 import { DrupalHomepage, DrupalService } from '@/lib/types'
 import { Clock, DollarSign, ArrowRight } from 'lucide-react'
 import ResponsiveImage from './ResponsiveImage'
@@ -10,6 +9,38 @@ import ResponsiveImage from './ResponsiveImage'
 interface ServicesPreviewProps {
   homepageContent?: DrupalHomepage | null
 }
+
+const GET_FEATURED_SERVICES = gql`
+  query GetFeaturedServices {
+    nodeServices(first: 3, sortKey: TITLE) {
+      nodes {
+        id
+        title
+        path
+        ... on NodeService {
+          serviceCategory {
+            ... on TermServiceCategory {
+              id
+              name
+            }
+          }
+          processingTime
+          fee
+          image {
+            url
+            alt
+            variations(styles: [MEDIUM]) {
+              name
+              url
+              width
+              height
+            }
+          }
+        }
+      }
+    }
+  }
+`
 
 interface FeaturedServicesData {
   nodeServices: {

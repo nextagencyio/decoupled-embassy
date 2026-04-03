@@ -1,10 +1,33 @@
 'use client'
 
 import Link from 'next/link'
-import { useQuery } from '@apollo/client'
-import { GET_RECENT_ADVISORIES } from '@/lib/queries'
+import { useQuery, gql } from '@apollo/client'
 import { DrupalTravelAdvisory } from '@/lib/types'
 import { AlertTriangle, ArrowRight, Calendar } from 'lucide-react'
+
+const GET_RECENT_ADVISORIES = gql`
+  query GetRecentAdvisories {
+    nodeTravelAdvisories(first: 3, sortKey: CREATED_AT) {
+      nodes {
+        id
+        title
+        path
+        ... on NodeTravelAdvisory {
+          advisoryLevel {
+            ... on TermAdvisoryLevel {
+              id
+              name
+            }
+          }
+          country
+          lastUpdated {
+            timestamp
+          }
+        }
+      }
+    }
+  }
+`
 
 interface RecentAdvisoriesData {
   nodeTravelAdvisories: {

@@ -88,7 +88,49 @@ export function getClient(): TypedClient {
           query ($path: String!) {
             route(path: $path) {
               ... on RouteInternal {
-                entity { ... on NodePage { __typename id title path body { processed } } }
+                entity {
+                  ... on NodePage { __typename id title path body { processed } }
+                  ... on NodeService {
+                    __typename id title path
+                    body { processed }
+                    serviceCategory { ... on TermServiceCategory { id name } }
+                    processingTime fee
+                    requiredDocuments { processed }
+                    onlineUrl
+                    image { url alt width height }
+                  }
+                  ... on NodeOfficial {
+                    __typename id title path
+                    body { processed }
+                    position email phone
+                    photo { url alt width height }
+                  }
+                  ... on NodeTravelAdvisory {
+                    __typename id title path
+                    body { processed }
+                    advisoryLevel { ... on TermAdvisoryLevel { id name } }
+                    effectiveDate { timestamp }
+                    country
+                    lastUpdated { timestamp }
+                    image { url alt width height }
+                  }
+                  ... on NodeNews {
+                    __typename id title path
+                    created { timestamp }
+                    body { processed }
+                    image { url alt width height }
+                    category { ... on TermNewsCategory { id name } }
+                    featured
+                  }
+                  ... on NodeHomepage {
+                    __typename id title
+                    heroTitle heroSubtitle
+                    heroDescription { processed }
+                    statsItems { ... on ParagraphStatItem { id number label } }
+                    featuredServicesTitle
+                    ctaTitle ctaDescription { processed } ctaPrimary ctaSecondary
+                  }
+                }
               }
             }
           }
